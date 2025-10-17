@@ -105,7 +105,7 @@ plot v(Vctat)
 ************************************************************
 **)
 .control
-pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
+pre_osdi /workspaces/vsd-7nm/asap_7nm_Xschem/bsimcmg.osdi
 .endc
 
 
@@ -178,7 +178,7 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 ************************************************************
 **)
 .control
-pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
+pre_osdi /workspaces/vsd-7nm/asap_7nm_Xschem/bsimcmg.osdi
 .endc
 
 
