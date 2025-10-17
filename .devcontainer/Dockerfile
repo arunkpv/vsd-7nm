@@ -53,4 +53,4 @@ COPY supervisord.conf /etc/supervisor/conf.d/vnc.conf
 EXPOSE 6080
 CMD ["/usr/bin/supervisord", "-n"]
 
-WORKDIR /workspaces/vsd-tcl
+WORKDIR /workspaces/vsd-7nm
