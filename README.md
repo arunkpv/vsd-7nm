@@ -1,4 +1,3 @@
-Here’s a matching **README.md** customized for your **Xschem + Ngspice GUI Codespace** environment, following the same clean, crisp format and image placement style you used earlier:
 
 ---
 
@@ -64,6 +63,16 @@ Exit anytime using `exit`.
 | Ngspice | `ngspice` | Circuit Simulation Engine |
 | gedit   | `gedit`   | Lightweight Text Editor   |
 | vim     | `vim`     | Terminal-based Editor     |
+
+---
+
+### Project Folder Location
+
+The design files are available under the folder:
+`/workspaces/vsd-7nm`
+as shown in the image below:
+
+![Project Folder View](images/5.jpg)
 
 ---
 
