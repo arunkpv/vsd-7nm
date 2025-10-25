@@ -3,13 +3,22 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "forwardPorts": [6080],
+//  "forwardPorts": [6080],
+//  "portsAttributes": {
+//    "6080": {
+//      "label": "noVNC Desktop",
+//      "onAutoForward": "openBrowser"
+//    }
+//  },
+"features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {}
+},
+"forwardPorts": [5901],
   "portsAttributes": {
-    "6080": {
-      "label": "noVNC Desktop",
-      "onAutoForward": "openBrowser"
-    }
-  },
+		"5901": { 
+      "label": "VNC desktop"
+		}
+	},
   "overrideCommand": false,
   "remoteUser": "root",
   "containerEnv": {
